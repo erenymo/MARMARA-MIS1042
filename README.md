@@ -1,2 +1,5 @@
 # MARMARA-MIS1042
-My Lecture Notes in Marmara University MIS1042 Class
+
+#Introduction to Algorithms and Data Structures
+
+My Lecture Notes MIS1042 Class at Marmara University
