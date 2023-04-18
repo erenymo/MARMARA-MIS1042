@@ -151,6 +151,7 @@
             }
             */
 
+            /*
             Console.WriteLine("REGISTRATION OF THE EVENT");
             Console.Write("Please enter your age : ");
 
@@ -165,7 +166,141 @@
             {
                 Console.WriteLine("You cannot attend the event. Your age should be between 18 - 25 or 40 - 45");
             }
+            */
+
+
+            /************************************/
+            /***************ARRAYS***************/
+            /************************************/
+
+
+            /*
+            int age1 = 20;
+            int age2 = 19;
+            int age3 = 21;
+            .
+            .
+            .
+            int age6000 = 18;
+
+            int totalAge = 0;
+            totalAge += age1;
+            totalAge += age2;
+            totalAge += age3;
+            .
+            .
+            .
+            totalAge += age6000;
+
+            float averageAge = totalAge / 6000.0f;
+            */
+
+            /*
+             data type[] arrayName = new datatype[x];  
+             [] used for indexing purposes
+             indexing start withs 0 (first element's number is [0] , second element's number is [1])
+             using plural forms in variable name is recommended
+            */
+
+            /*
+            int[] ages = new int[5];
+            ages[0] = 20;
+            ages[1] = 19;
+            ages[2] = 21;
+            ages[3] = 18;
+            ages[4] = 17;
+
+            Console.WriteLine($"ages[0] is going to be : {ages[0]}");
+            Console.WriteLine($"ages[1] is going to be : {ages[1]}");
+            Console.WriteLine($"ages[2] is going to be : {ages[2]}");
+            Console.WriteLine($"ages[3] is going to be : {ages[3]}");
+            Console.WriteLine($"ages[4] is going to be : {ages[4]}");
+
+            Console.WriteLine("-----");
+
+            char[] myName = new char[5];
+
+            myName[0] = 'E';
+            myName[1] = 'r';
+            myName[2] = 'e';
+            myName[3] = 'n';
+            myName[4] = 'B';
+            
+
+            Console.WriteLine(myName[^1] // myName[4]);
+            Console.WriteLine(myName[^2] // myName[3]);
+            Console.WriteLine(myName[^3] // myName[2]);
+            Console.WriteLine(myName[^4] // myName[1]);
+            Console.WriteLine(myName[^5] // myName[0]);
+
+
+            Console.WriteLine($"myName[] is going to be : {myName[0]}{myName[1]}{myName[2]}{myName[3]}{myName[4]}");
+            Console.WriteLine("-----");
+            string myNameAsString = "Eren";
+            Console.WriteLine(myNameAsString[0]);
+            Console.WriteLine(myNameAsString[1]);
+            Console.WriteLine(myNameAsString[2]);
+            Console.WriteLine(myNameAsString[3]);
+            */
+
+            // myNameAsString[0] = 'A'; //It is not possible to change an individual char on a string
+
+            /*
+            myName[0] = 'A'; // it is possible to change the value of element on array.
+            Console.WriteLine($"{myName[0]}{myName[1]}{myName[2]}{myName[3]}{myName[4]}");
+
+            float[] myFloats = new float[100];
+
+            Console.WriteLine(myFloats.Length); // .Length propery gives you the lenght of the array
+
+            myFloats[myFloats.Length - 1] = 5.0f;
+
+            Console.WriteLine(myFloats[myFloats.Length - 1]);
+
+            Console.WriteLine(myFloats[0]);
+
+            Console.WriteLine($"Default value for the boolean : {default(bool)}");
+
+            bool[] myBools = new bool[5];
+
+            Console.WriteLine(myBools[0]);  */
+
+
+            // FOR LOOP
+
+            /*for (int i = 0; i<100 ; i++)  // i j k 
+            {
+                Console.WriteLine($"Looping : {i}");
+            }
+
+            Console.WriteLine("Finished");*/
+            /*
+            for (int i = 0, j=1; (i<10) && (j<200) ; i++, j*=10)
+            {
+                Console.WriteLine($"i : {i} , j : {j}");
+
+            }
+
+            int i = 0;
+            
+            for ( ; i<10 ; )
+            
+                Console.WriteLine(i);
+
+                i++;
+            }
+            */
+
+            for (int i = 100; i > 10; i--)
+            {
+                Console.WriteLine(i);
+
+            }
+
+            Console.WriteLine("Finished");
+
         }
+
         /*
         static bool VowelCheck(char characterToCheck)
         {
