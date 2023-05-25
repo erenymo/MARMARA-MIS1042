@@ -1,3 +1,3 @@
 # MIS1042 (Introduction to Algorithms and Data Structures)
 
-My Lecture Notes MIS1042 Class at Marmara University
+These are the codes that we have covered in the MIS1042 Class.
