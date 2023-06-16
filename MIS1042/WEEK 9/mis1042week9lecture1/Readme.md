@@ -1,2 +1,2 @@
 ## Week 9
-// Lecture 2'de ders işlenmedi, tekrar yapıldı.
+9. Hafta 2. Derste konu işlenmedi, tekrar yapıldı.
